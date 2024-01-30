@@ -1,0 +1,42 @@
+.rectangle-group-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.yellow-leheriya-print {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 25px;
+}
+.classic-kurta {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 25px;
+  white-space: nowrap;
+}
+.saree-rectangle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.rectangle-group1 {
+  width: 289px;
+  height: 401px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

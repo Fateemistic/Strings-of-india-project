@@ -1,0 +1,121 @@
+.f-r-a-m-e-child {
+  position: relative;
+  background-color: var(--crisp-white);
+  width: 1440px;
+  height: 90px;
+  display: none;
+  max-width: 100%;
+}
+.women1 {
+  position: relative;
+}
+.women {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs);
+  z-index: 1;
+}
+.women-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.span {
+  color: var(--color-black);
+}
+.of-india {
+  color: var(--foundation-rasin-black-rasin-black-500);
+}
+.strings-of-india-container1 {
+  width: 100%;
+}
+.strings-of-india-container {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-31xl);
+  font-weight: 400;
+  font-family: var(--font-style-script);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  color: var(--foundation-imperial-red-imperial-red-500);
+}
+.women-group-parent {
+  width: 717px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.icons8-search-100-1 {
+  position: relative;
+  width: 39px;
+  height: 39px;
+  object-fit: cover;
+  z-index: 1;
+}
+.icons8-bag-100-1 {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  z-index: 1;
+}
+.new-collection-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.f-r-a-m-e {
+  align-self: stretch;
+  background-color: var(--crisp-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-6xs) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-392xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--foundation-rasin-black-rasin-black-700);
+  font-family: var(--font-playfair-display);
+}
+
+@media screen and (max-width: 1275px) {
+  .f-r-a-m-e {
+    gap: var(--gap-186xl);
+  }
+}
+@media screen and (max-width: 1100px) {
+  .women-group {
+    display: none;
+  }
+
+  .women-group-parent {
+    width: 437px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .f-r-a-m-e {
+    gap: var(--gap-84xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .f-r-a-m-e {
+    gap: var(--gap-32xl);
+  }
+}

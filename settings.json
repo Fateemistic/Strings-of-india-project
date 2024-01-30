@@ -1,0 +1,21 @@
+{
+  "detectedConfig": {
+    "typescript": false,
+    "naming": "Pascal Case",
+    "unit": "px",
+    "framework": "react",
+    "styling": "CSS"
+  },
+  "locofyConfig": {
+    "project": "Strings of india task (Copy)",
+    "id": "65b931d409ddf2f4e5794a4e",
+    "framework": "react",
+    "typescript": false,
+    "styling": "CSS",
+    "unit": "px",
+    "naming": "Pascal Case",
+    "path": "public/",
+    "componentsPath": "f:\\Coding\\React\\dummy-json\\src\\components",
+    "screensPath": "f:\\Coding\\React\\src\\pages"
+  }
+}

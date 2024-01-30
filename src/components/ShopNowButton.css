@@ -1,0 +1,219 @@
+.rectangle-div {
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    #f7c8d6,
+    rgba(233, 198, 208, 0.44),
+    #e9c6d0
+  );
+  width: 1440px;
+  height: 530px;
+  display: none;
+  max-width: 100%;
+}
+.discover-timeless-elegance {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 68px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  height: 210px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.explore-our-collection {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-8xl);
+  line-height: 37px;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--foundation-rasin-black-rasin-black-500);
+  display: inline-block;
+  width: 597px;
+  height: 70px;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.f-a-qs-size-guide-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.shop-now2 {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--crisp-white);
+  text-align: left;
+}
+.shop-now-frame {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-3xs) var(--padding-10xl) var(--padding-3xs)
+    var(--padding-16xl);
+  background-color: var(--foundation-imperial-red-imperial-red-500);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  white-space: nowrap;
+  z-index: 1;
+}
+.shop-now-frame:hover {
+  background-color: var(--color-tomato);
+}
+.company-info-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  max-width: 100%;
+}
+.company-info-frame-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0px 0px;
+  box-sizing: border-box;
+  min-width: 434px;
+  max-width: 100%;
+}
+.classic-section-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.classic-section-item {
+  position: absolute;
+  top: 110px;
+  left: 44px;
+  width: 67.2px;
+  height: 67.2px;
+  z-index: 2;
+}
+.classic-section {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 410px;
+}
+.vector-follow-instagram-child {
+  position: absolute;
+  top: 338px;
+  left: 383px;
+  width: 67.2px;
+  height: 67.2px;
+  z-index: 2;
+}
+.vector-follow-instagram {
+  position: relative;
+  width: 450px;
+  height: 496px;
+  min-width: 450px;
+  max-width: 100%;
+}
+.frame-div {
+  flex: 1;
+  background: linear-gradient(
+    90deg,
+    #f7c8d6,
+    rgba(233, 198, 208, 0.44),
+    #e9c6d0
+  );
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-93xl) var(--padding-xl)
+    var(--padding-85xl);
+  box-sizing: border-box;
+  gap: var(--gap-88xl);
+  max-width: 100%;
+}
+.shop-now-button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-26xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-playfair-display);
+}
+
+@media screen and (max-width: 1275px) {
+  .vector-follow-instagram {
+    flex: 1;
+  }
+
+  .frame-div {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .discover-timeless-elegance {
+    font-size: var(--font-size-29xl);
+    line-height: 54px;
+  }
+
+  .company-info-frame-wrapper {
+    min-width: 100%;
+  }
+
+  .vector-follow-instagram {
+    min-width: 100%;
+  }
+
+  .frame-div {
+    gap: var(--gap-34xl);
+    padding-left: var(--padding-33xl);
+    padding-right: var(--padding-37xl);
+    box-sizing: border-box;
+  }
+
+  .shop-now-button {
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .discover-timeless-elegance {
+    font-size: var(--font-size-17xl);
+    line-height: 41px;
+  }
+
+  .explore-our-collection {
+    font-size: var(--font-size-3xl);
+    line-height: 30px;
+  }
+
+  .frame-div {
+    gap: var(--gap-8xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

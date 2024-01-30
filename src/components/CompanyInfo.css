@@ -1,0 +1,397 @@
+.vector-arrow-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+}
+.vector-arrow-icon1 {
+  position: absolute;
+  top: 0px;
+  left: 240px;
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  z-index: 1;
+}
+.vector-arrow-icon2 {
+  position: absolute;
+  top: 0px;
+  left: 960px;
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  z-index: 4;
+}
+.vector-arrow-icon3 {
+  position: absolute;
+  top: 0px;
+  left: 1200px;
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  z-index: 5;
+}
+.customer-reviews-child {
+  position: relative;
+  background-color: var(--foundation-imperial-red-imperial-red-500);
+  width: 385px;
+  height: 95px;
+  display: none;
+  max-width: 100%;
+}
+.contact-information-icon {
+  position: relative;
+  width: 49px;
+  height: 49px;
+  z-index: 5;
+}
+.follow-our-instagram {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  letter-spacing: 0.01em;
+  line-height: 34px;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--crisp-white);
+  text-align: center;
+  z-index: 5;
+}
+.customer-reviews {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-4xl) var(--padding-7xl) var(--padding-4xl)
+    var(--padding-6xl);
+  background-color: var(--foundation-imperial-red-imperial-red-500);
+  position: absolute;
+  top: 193px;
+  left: 527px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  max-width: 100%;
+  white-space: nowrap;
+  z-index: 4;
+}
+.customer-reviews:hover {
+  background-color: var(--color-tomato);
+}
+.help-support-child {
+  position: relative;
+  background-color: var(--footer);
+  width: 1440px;
+  height: 288px;
+  display: none;
+  max-width: 100%;
+}
+.span1 {
+  color: var(--color-black);
+}
+.of-india1 {
+  color: var(--foundation-rasin-black-rasin-black-500);
+}
+.strings-of-india-container3 {
+  width: 100%;
+}
+.strings-of-india-container2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.company {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  z-index: 1;
+}
+.about-us {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 300;
+  text-align: center;
+  z-index: 1;
+}
+.contact-us {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 300;
+  z-index: 1;
+}
+.shipping-payment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.returns-exchange {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  min-width: 110px;
+}
+.order-status-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  font-size: var(--font-size-base);
+}
+.returns-exchange1 {
+  width: 165px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  min-width: 165px;
+  text-align: left;
+}
+.order-status {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.company-contact {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  min-width: 231px;
+  max-width: 100%;
+}
+.f-a-q-s-size-guide-shipping-po {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  font-size: var(--font-size-base);
+}
+.help-f-a-qs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.subscribe-newsletter {
+  width: 556px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  min-width: 556px;
+  max-width: 100%;
+}
+.newsletter {
+  color: var(--foundation-imperial-red-imperial-red-500);
+}
+.subscribe-to-our-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  line-height: 48px;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.help-f-a-qs-child {
+  border: none;
+  outline: none;
+  background-color: var(--crisp-white);
+  flex: 1;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-mini);
+  box-sizing: border-box;
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  min-width: 128px;
+  z-index: 2;
+}
+.frame-child1 {
+  position: relative;
+  background-color: var(--foundation-imperial-red-imperial-red-500);
+  width: 100px;
+  height: 35px;
+  display: none;
+}
+.group-div {
+  background-color: var(--foundation-imperial-red-imperial-red-500);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-xs) var(--padding-8xs)
+    var(--padding-4xs);
+  z-index: 1;
+}
+.help-f-a-qs1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-base);
+  color: var(--crisp-white);
+  font-family: var(--font-poppins);
+}
+.contactus-returns-exchange {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.about-us-order-status {
+  width: 314px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) 0px 0px;
+  box-sizing: border-box;
+  min-width: 314px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--foundation-rasin-black-rasin-black-500);
+  font-family: var(--font-playfair-display);
+}
+.help-support {
+  position: absolute;
+  top: 241px;
+  left: 0px;
+  background-color: var(--footer);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-7xl) var(--padding-85xl) var(--padding-26xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--foundation-imperial-red-imperial-red-500);
+  font-family: var(--font-style-script);
+}
+.company-info {
+  position: relative;
+  width: 1440px;
+  height: 529px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  .subscribe-newsletter {
+    flex: 1;
+    min-width: 100%;
+  }
+
+  .about-us-order-status {
+    flex: 1;
+  }
+
+  .help-support {
+    flex-wrap: wrap;
+  }
+
+  .company-info {
+    height: auto;
+    min-height: 529;
+  }
+}
+@media screen and (max-width: 750px) {
+  .strings-of-india-container2 {
+    font-size: var(--font-size-21xl);
+  }
+
+  .subscribe-newsletter {
+    flex-wrap: wrap;
+    gap: var(--gap-21xl);
+  }
+
+  .subscribe-to-our-container {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+
+  .help-support {
+    padding-left: var(--padding-33xl);
+    padding-right: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .strings-of-india-container2 {
+    font-size: var(--font-size-11xl);
+  }
+
+  .returns-exchange {
+    flex: 1;
+  }
+
+  .returns-exchange1 {
+    flex: 1;
+  }
+
+  .order-status {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .subscribe-newsletter {
+    gap: var(--gap-xl);
+  }
+
+  .subscribe-to-our-container {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+
+  .help-support {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,581 @@
+.main-rectangle-icon {
+  position: absolute;
+  margin: 0 !important;
+  height: calc(100% - 4119px);
+  top: 3830px;
+  bottom: 289px;
+  left: calc(50% - 240px);
+  max-height: 100%;
+  width: 240px;
+  object-fit: cover;
+  z-index: 2;
+}
+.main-rectangle-icon1 {
+  position: absolute;
+  margin: 0 !important;
+  height: calc(100% - 4119px);
+  top: 3830px;
+  right: 480px;
+  bottom: 289px;
+  max-height: 100%;
+  width: 240px;
+  object-fit: cover;
+  z-index: 3;
+}
+.arrivals {
+  color: var(--foundation-imperial-red-imperial-red-500);
+}
+.new-arrivals {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  line-height: 70px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.frame-child {
+  position: relative;
+  max-height: 100%;
+  width: 1227px;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.shop-now {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--crisp-white);
+  text-align: left;
+}
+.shop-now-wrapper {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-3xs);
+  background-color: var(--foundation-imperial-red-imperial-red-500);
+  width: 224px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+}
+.shop-now-wrapper:hover {
+  background-color: var(--color-tomato);
+}
+.rectangle-parent {
+  width: 1227px;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 138px 223px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+}
+.our-products {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  line-height: 70px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.multi-category-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.kurta {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 101px;
+  flex-shrink: 0;
+}
+.saree {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 106px;
+  flex-shrink: 0;
+}
+.lehanga {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 134px;
+  flex-shrink: 0;
+}
+.bridal-dress {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 181px;
+  flex-shrink: 0;
+}
+.salwaar-kameez {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 256px;
+  flex-shrink: 0;
+}
+.new-arrivals1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  width: 191px;
+  flex-shrink: 0;
+}
+.product-category {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 52px;
+}
+.yellow-leheriya-print-rectangl {
+  position: absolute;
+  margin: 0 !important;
+  bottom: 0px;
+  left: 16px;
+  border-radius: 25px;
+  background-color: var(--foundation-imperial-red-imperial-red-500);
+  width: 69px;
+  height: 5px;
+  z-index: 1;
+}
+.our-products-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px var(--padding-8xs);
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-poppins);
+}
+.new-arrivals-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  min-height: 859px;
+}
+.our-products-frame {
+  width: 1269px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+.shop-now-container {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-3xs) 34px var(--padding-3xs) var(--padding-16xl);
+  background-color: var(--foundation-imperial-red-imperial-red-500);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.shop-now-container:hover {
+  background-color: var(--color-tomato);
+}
+.what-people-say-container {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  line-height: 70px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.where-elegance-speaks {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  letter-spacing: 0.01em;
+  line-height: 25px;
+  font-weight: 400;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+}
+.frame-ellipse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.shrudha-r-review-child {
+  flex: 1;
+  position: relative;
+  background-color: var(--footer);
+  height: 479px;
+  min-width: 506px;
+  max-width: 100%;
+}
+.frame-item {
+  position: relative;
+  background-color: var(--footer);
+  width: 550px;
+  height: 479px;
+  display: none;
+  max-width: 100%;
+}
+.i-recently-purchased {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  letter-spacing: 0.01em;
+  line-height: 34px;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.the-quality-and {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 26px;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.the-quality-and-craftsmanship-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-6xs);
+  box-sizing: border-box;
+  min-height: 135px;
+  max-width: 100%;
+}
+.shrudha-review-icon {
+  position: relative;
+  border-radius: 50%;
+  width: 82px;
+  height: 82px;
+  object-fit: cover;
+  z-index: 1;
+}
+.shrudha-r {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 34px;
+  font-weight: 500;
+  z-index: 1;
+}
+.rajiv-review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 3px;
+}
+.rectangle-group {
+  flex: 0.84;
+  background-color: var(--footer);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-31xl) var(--padding-26xl) var(--padding-12xl) 43px;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  min-width: 506px;
+  max-width: 100%;
+}
+.as-someone-who {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  letter-spacing: 0.01em;
+  line-height: 34px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  width: 462px;
+  max-width: 100%;
+  z-index: 1;
+}
+.their-collection-of-kurtas-is-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 13px 0px var(--padding-xl);
+  box-sizing: border-box;
+  min-height: 135px;
+  max-width: 100%;
+}
+.rectangle-container {
+  flex: 0.8873;
+  background-color: var(--footer);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-31xl) var(--padding-12xl) var(--padding-12xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  min-width: 506px;
+  max-width: 100%;
+}
+.shrudha-r-review {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.group-icon {
+  position: relative;
+  width: 155px;
+  height: 15px;
+}
+.new-arrivals-parent {
+  width: 2290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 44px;
+  max-width: 123%;
+  flex-shrink: 0;
+}
+.new-arrivals-frame {
+  width: 1865px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  max-width: 130%;
+  flex-shrink: 0;
+}
+.new-arrivals-frame-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-41xl);
+  color: var(--foundation-rasin-black-rasin-black-500);
+  font-family: var(--font-playfair-display);
+}
+.homepage {
+  position: relative;
+  background-color: var(--crisp-white);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1275px) {
+  .rectangle-parent {
+    width: calc(100% - 40px);
+  }
+
+  .product-category {
+    flex-wrap: wrap;
+  }
+
+  .shrudha-r-review {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .new-arrivals {
+    font-size: var(--font-size-29xl);
+    line-height: 56px;
+  }
+
+  .rectangle-parent {
+    padding-left: var(--padding-92xl);
+    padding-right: var(--padding-92xl);
+    box-sizing: border-box;
+  }
+
+  .our-products {
+    font-size: var(--font-size-29xl);
+    line-height: 56px;
+  }
+
+  .product-category {
+    gap: var(--gap-7xl);
+  }
+
+  .our-products-frame {
+    gap: var(--gap-xl);
+  }
+
+  .what-people-say-container {
+    font-size: var(--font-size-29xl);
+    line-height: 56px;
+  }
+
+  .shrudha-r-review-child {
+    min-width: 100%;
+  }
+
+  .rectangle-group {
+    padding: var(--padding-13xl) 22px var(--padding-xl) var(--padding-2xl);
+    box-sizing: border-box;
+    flex: 1;
+    min-width: 100%;
+  }
+
+  .rectangle-container {
+    padding-top: var(--padding-13xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+    flex: 1;
+    min-width: 100%;
+  }
+
+  .new-arrivals-parent {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .new-arrivals {
+    font-size: var(--font-size-17xl);
+    line-height: 42px;
+  }
+
+  .rectangle-parent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .our-products {
+    font-size: var(--font-size-17xl);
+    line-height: 42px;
+  }
+
+  .kurta {
+    font-size: var(--font-size-xl);
+  }
+
+  .saree {
+    font-size: var(--font-size-xl);
+  }
+
+  .lehanga {
+    font-size: var(--font-size-xl);
+  }
+
+  .bridal-dress {
+    font-size: var(--font-size-xl);
+  }
+
+  .salwaar-kameez {
+    font-size: var(--font-size-xl);
+  }
+
+  .new-arrivals1 {
+    font-size: var(--font-size-xl);
+  }
+
+  .shop-now-container {
+    width: calc(100% - 40px);
+  }
+
+  .what-people-say-container {
+    font-size: var(--font-size-17xl);
+    line-height: 42px;
+  }
+
+  .where-elegance-speaks {
+    font-size: var(--font-size-xl);
+    line-height: 20px;
+  }
+
+  .i-recently-purchased {
+    font-size: var(--font-size-xl);
+    line-height: 27px;
+  }
+
+  .as-someone-who {
+    font-size: var(--font-size-xl);
+    line-height: 27px;
+  }
+}
