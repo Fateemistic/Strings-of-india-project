@@ -1,3 +1,6 @@
+f-r-a-m-e {
+    gap: var(--gap-32xl);
+  }
 .f-r-a-m-e-child {
   position: relative;
   background-color: var(--crisp-white);
@@ -114,8 +117,4 @@
     gap: var(--gap-84xl);
   }
 }
-@media screen and (max-width: 450px) {
-  .f-r-a-m-e {
-    gap: var(--gap-32xl);
-  }
-}
+@media screen and (max-width: 450px) 
